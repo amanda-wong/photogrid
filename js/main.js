@@ -16,6 +16,12 @@ $(function() {
 		photogrid('https://api.instagram.com/v1/tags/'+ hashtag +'/media/recent?count=12&client_id=b8586475183a4ad89a5a0ebd4a36fbc2');
 	});
 
+	$('.search-bar').keypress(function(e){
+		if(e.which == 13) { // Enter keypress
+			$('search-button').click(); // Trigger search button click event
+		}
+	});
+
 	$('.load-more-button').hide().on('click', function () {
 		photogrid(next_url);
 	});

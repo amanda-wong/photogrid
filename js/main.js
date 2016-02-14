@@ -49,6 +49,7 @@ $(function() {
 		})
 
 		.fail(function(argument) {
+			$('header').height('auto');
 			$('.loading-image').hide();
 			$display.text('please enter a hashtag to continue');
 		});

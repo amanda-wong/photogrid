@@ -49,7 +49,8 @@ $(function() {
 		})
 
 		.fail(function(argument) {
-			console.log(argument);
+			$('.loading-image').hide();
+			$display.text('please enter a hashtag to continue');
 		});
 	}
 });

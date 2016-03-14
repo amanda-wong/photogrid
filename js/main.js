@@ -10,7 +10,7 @@ $(function() {
 
 		$('.loading-image').show();
 		var hashtag = $('.search-bar').val();
-		$display.empty();
+		$('.grid').empty();
 
 		photogrid('https://api.instagram.com/v1/tags/'+ hashtag +'/media/recent?count=12&client_id=b8586475183a4ad89a5a0ebd4a36fbc2');
 	});

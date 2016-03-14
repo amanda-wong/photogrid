@@ -44,12 +44,12 @@ $(function() {
 
 			next_url = instaData.pagination.next_url;
 			$('.load-more-button').show();
-
 			$display.append(result);
 		})
 
 		.fail(function(argument) {
-			console.log(argument);
+			$('.loading-image').fadeOut();
+			$display.append('<p class="feedback">Sorry! There was a problem, please try again.</p>');
 		});
 	}
 });

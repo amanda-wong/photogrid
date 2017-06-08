@@ -2,7 +2,7 @@
 
 ### Summary
 
-[Instagrid](http://amanda-wong.github.io/photogrid/) is a fully responsive webpage that allow users to display on the page the most recent images and social details corresponding to the searched hashtag.
+[Instagrid](http://amanda-wong.github.io/photogrid/) is a fully responsive webpage that allow users to display on the page the most recent images and social details corresponding to the searched hashtag. Unfortunately, Instagram's public API has changed after the last few months and no longer allows you to search up public hashtags. Sorry for the inconvenience.
 
 ### Tools and methods
 
